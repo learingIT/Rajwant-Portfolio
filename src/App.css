@@ -1,0 +1,535 @@
+:root {
+    --box-shadow: 2px 0px 3px 2px rgba(20, 244, 237, 0.395);
+    --card-bg-color: black;
+    /* You can set this to any color you want */
+}
+
+body {
+     background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* Adjusted for better spacing */
+    align-items: center;
+    /* Ensure vertical alignment */
+    padding: 10px;
+    margin-top: 2%;
+
+}
+
+.right {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+span {
+    color: rgb(214, 34, 14);
+}
+.newspan{
+    color:rgba(200,30,10);
+}
+
+
+ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: wheat;
+    text-decoration: none;
+    padding: 10px 20px;
+    /* Adjusted for better spacing */
+    margin: 0 10px;
+    text-align: center;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: -1rem;
+}
+
+ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* contant page css  */
+
+.home {
+    padding: 50px;
+    margin-top: 8%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
+.home .left {
+    box-shadow: var(--box-shadow);
+    border-radius: 25px;
+    width: 45%;
+    padding: 40px 20px;
+    text-align: center;
+
+}
+
+.title {
+
+    padding: 10px 20px;
+    position: relative;
+    display: flex;
+}
+
+.title:hover {
+    transform: rotate3d()
+        /* background-color: blue; */
+}
+
+.home.right.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.img {
+    border-radius: 400px;
+    animation-name: rajwantsingh;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    width: 22rem;
+
+
+}
+
+.left .button {
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+   
+    margin-left: 20px;
+
+}
+.new-line{
+    font-size:15px;
+    margin: 10px;
+   
+    align-items: center;
+}
+
+.left .button:hover {
+    background-color: rgb(255, 247, 3);
+    color: black;
+}
+
+@keyframes rajwantsingh {
+    0% {
+        box-shadow: 5px 5px 15px 5px rgba(0, 0, 255, 0.6);
+        transform: translate(0, 0);
+    }
+
+    25% {
+        box-shadow: 5px 5px 15px 5px rgba(255, 255, 0, 0.6);
+        transform: translate(2px, 2px);
+    }
+
+    50% {
+        box-shadow: 5px 5px 15px 5px rgba(0, 255, 0, 0.6);
+        transform: translate(-2px, -2px);
+    }
+
+    75% {
+        box-shadow: 5px 5px 15px 5px rgba(255, 0, 255, 0.6);
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        box-shadow: 5px 5px 15px 5px rgba(255, 192, 203, 0.6);
+        transform: translate(0, 0);
+    }
+}
+
+
+/* thsi line is start the exprinces card in the portfolio websites in the rajwant singh */
+.ex h1 {
+    padding-left: 150px;
+    margin: 50px;
+    
+}
+
+
+hr {
+    margin: 60px;
+    border: 2px solid rgba(250, 250, 250, 0.879);
+
+}
+
+
+p {
+    display: flex;
+    padding-top: 130px;
+    position: absolute;
+    align-items: center;
+    width: 200px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+p.therd {
+    padding-bottom: 20px;
+}
+
+p.forth {
+    padding-bottom: 20px;
+}
+
+p.fifth {
+    padding-bottom: 20px;
+}
+
+.rrrrone {
+    animation: expriences linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 70%;
+}
+
+@keyframes expriences {
+    from {
+        opacity: 0;
+        transform: translatex(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translatex(0px);
+    }
+}
+
+.rrrrtow {
+    animation: expriences2 linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 60%;
+}
+
+@keyframes expriences2 {
+    from {
+        opacity: 0;
+        transform: translatey(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translatey(-0px);
+    }
+}
+
+.rrrrforth {
+    animation: expriences2 linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 60%;
+    padding-left: 45px;
+}
+
+.rrrrthird {
+    padding-left: 40px;
+    animation: expriences2 linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 60%;
+
+
+}
+
+.rrrrfifth {
+    animation: expriences5 linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 70%;
+}
+
+@keyframes expriences5 {
+    from {
+        opacity: 0;
+        transform: translatex(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translatey(0px);
+    }
+}
+
+
+.contentitem {
+    display: flex;
+    position: relative;
+    left: 4%;
+    padding: auto;
+    padding: 12px;
+    margin: 30px;
+
+}
+
+.verticalexprinces {
+    display: flex;
+    margin: 50px;
+    position: relative;
+    bottom: 50px;
+
+
+}
+
+
+
+#vartical {
+
+    border: 1px solid rgba(12, 135, 131, 0.664);
+    position: relative;
+    left: 50%;
+    text-align: center;
+    height: 1200px;
+    width: 1px;
+
+}
+
+
+#itemcontant {
+    bottom: 20px;
+    border: 2px;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px 60px;
+    width: 400px;
+    text-align: center;
+    float: right;
+    margin-right: 15%;
+    animation: logoanimation linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+
+
+
+}
+
+h3 {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.logo {
+    width: 70px;
+    margin: 27px;
+    border-radius: 6px 15px 35px 15px;
+    box-shadow: var(--box-shadow);
+    /* filter: drop-shadow(1px 3px 10px); */
+}
+
+.logo1 {
+    width: 90px;
+    margin: 27px;
+    border-radius: 6px 15px 35px 15px;
+    box-shadow: var(--box-shadow);
+}
+
+
+
+@keyframes showpice {
+    from {
+        opacity: 0;
+        scale: 0.5;
+
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+#itemcontant2 {
+    border: 2px;
+    box-shadow: var(--box-shadow);
+    border-radius: 60px 10px;
+    width: 400px;
+    text-align: center;
+    margin-top: 55vh;
+    float: right;
+    margin-right: 18%;
+    animation: logoanimation2 linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+
+}
+
+@keyframes logoanimation2 {
+    from {
+        opacity: 0;
+        transform: translatex(-100px);
+
+    }
+
+    to {
+        opacity: 1;
+        transform: translatex(0px);
+    }
+}
+
+#itemcontant3 {
+    border: 2px;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px 60px;
+    width: 400px;
+    text-align: center;
+    margin-top: 27vh;
+    float: right;
+    margin-right: 13%;
+    animation: logoanimation linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+}
+
+#itemcontant4 {
+    border: 2px;
+    box-shadow: var(--box-shadow);
+    border-radius: 60px 10px;
+    width: 400px;
+    text-align: center;
+    margin-top: 68vh;
+    float: left;
+    margin-left: 13%;
+    animation: logoanimation2 linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+}
+
+/* this animation is zoom in zoom out of the dive and very cool effect */
+@keyframes logoanimation {
+    from {
+        opacity: 0;
+        transform: translatex(100px);
+
+    }
+
+    to {
+        opacity: 1;
+        transform: translatex(-0px);
+    }
+}
+
+
+.text {
+    align-items: center;
+    text-align: center;
+    left: 230px;
+    height: 175px;
+    width: 340px;
+    /* left: 20px; */
+    padding-top: 5px;
+    margin: 29px;
+    border: 2px;
+    border-radius: 15px 20px;
+    box-shadow: var(--box-shadow);
+    animation: logoanimation2 linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+}
+
+.text3 {
+    align-items: center;
+    text-align: center;
+    height: 175px;
+    width: 300px;
+    left: 300px;
+    margin-top: 95vh;
+    padding-top: 5px;
+    /* margin: 29px; */
+    border: 2px;
+    border-radius: 15px 20px;
+    box-shadow: var(--box-shadow);
+    animation: logoanimation2 linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+}
+
+.text2 {
+    right: 300px;
+    padding-top: 330px;
+    padding: 5px;
+    margin-top: 55vh;
+    width: 303px;
+    text-align: center;
+    border: 2px;
+    border-radius: 15px 20px;
+    box-shadow: var(--box-shadow);
+    animation: logoanimation linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+}
+.text4 {
+    right: 292px;
+    /* padding-top: 330px; */
+    padding: 5px;
+    margin-top: 140vh;
+    width: 303px;
+    text-align: center;
+    border: 2px;
+    border-radius: 15px 20px;
+    box-shadow: var(--box-shadow);
+    animation: logoanimation linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+}
+.active{
+justify-content:center;
+/* float:right; */
+display: flex;
+gap: 40vh;
+margin: 50px;
+padding:50px;
+}
+.btn{
+    padding-left: 70px;
+    color:rgb(255, 255, 255);
+    border: 2px ;
+    border-radius:5px;
+    box-shadow: var(--box-shadow);
+}
+.firstlogo{
+
+    border: 2px;
+    border-radius: 60px;
+    box-shadow: var(--box-shadow);
+    padding-right: 70px;
+}
+.logoA{
+    display: flex;
+    text-align: center;
+}
+.icon{
+   width:50px;
+   padding: 5px;
+   
+}
+.contextitem{
+    position:relative;
+ 
+    padding-top:10%;
+    left: 40%;
+    color: rgba(0, 255, 255, 0.601);
+}
+
+
