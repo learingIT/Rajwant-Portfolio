@@ -20,7 +20,7 @@ export default function Skills() {
         <img src="./image/tc.png" alt="" className='logo' />
         <img src="./image/figma.png" alt="" className='logo' />
       </div>
-      <p className='text2'>second ipsum dolor sit amet consectetur adipisicing elit. Ratione eius libero accusantium accusamus ducimus obcaecati saepe nostrum harum quaerat, doloribus porro vel eligendi quia architecto! Ullam deleniti nesciunt libero reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti adipisci recusandae debitis voluptate reiciendis saepe sequi minima temporibus, molestias tempora repellendus repudiandae dolores ipsa ea doloremque sint dolore magni natus.</p>
+      <p className='text2'>Hi there i am descuseing the designer toll and framework og designer and deploying the animated and  dynamic css content to help making a user intractive websites and good loking webpage and the most helpful tools a framwork is telwind css and figma app. </p>
 
      
 
@@ -30,7 +30,7 @@ export default function Skills() {
         <img src="./image/django-1-282754.webp" alt="" className='logo' />
         <img src="./image/chat gpt.webp" alt="" className='logo' />
       </div>
-      <p className='text3'>third ipsum dolor sit amet consectetur adipisicing elit. Ratione eius libero accusantium accusamus ducimus obcaecati saepe nostrum harum quaerat, doloribus porro vel eligendi quia architecto! Ullam deleniti nesciunt libero reiciendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti adipisci recusandae debitis voluptate reiciendis saepe sequi minima temporibus, molestias tempora repellendus repudiandae dolores ipsa ea doloremque sint dolore magni natus.</p>
+      <p className='text3'>HI there this is my skill of python devlopement jurnye the python is esay to devloped the project in pyhton and using the django framework is best feamwork to python and using the developer to make a dynamic websites and we using the chat gpt for a new logic and inhance the skills and saving the time and using the chat gpt and django its helping to manageing the time management</p>
 
       
 
